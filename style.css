@@ -1,0 +1,378 @@
+@font-face {
+    src: url("assets/font/Lato-Regular.ttf");
+    font-family: "Lato";
+}
+
+body {
+    font-family: "Lato";
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    padding: 0 10rem;
+}
+
+p {
+    line-height: 140%;
+    margin-top: 1rem;
+    color: gray;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.italic {
+    font-style: italic;
+}
+.cgray {
+    color: gray;
+}
+
+nav {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 10px;
+    justify-content: center;
+}
+
+ul li {
+    display: inline;
+    margin: 5px;
+}
+
+.searchIn {
+    border: none;
+    background: transparent;
+}
+
+.imgHeader {
+    background-image: url("assets/img/parallax1.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1 {
+    background-color: black;
+    padding: 1rem;
+}
+
+h1 {
+
+    color: white;
+    margin: 0;
+    letter-spacing: .5rem;
+    font-weight: 100;
+}
+
+.center {
+    text-align: center;
+}
+
+/* ABOUT */
+#about {
+    text-align: justify;
+    padding: auto 8rem;
+}
+
+.aboutme {
+    text-align: center;
+}
+
+.h3About {
+    margin-bottom: 4rem;
+}
+
+.container {
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    margin-top: 50px;
+}
+
+.bloc1 {
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    line-height: 140%;
+}
+
+.imgAbout {
+    width: 100%;
+}
+
+.letter {
+    text-align: justify;
+    color: gray;
+}
+
+.espace {
+    letter-spacing: .6rem;
+}
+
+.fond {
+    width: 100%;
+    height: 2rem;
+    background-color: rgb(241, 241, 241);
+}
+
+.dessus {
+    display: flex;
+    height: 2rem;
+    background-color: rgb(97, 97, 97);
+    align-items: center;
+    justify-content: center;
+}
+
+.pourcent {
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+.p90 {
+    width: 90%;
+}
+
+.p85 {
+    width: 85%;
+}
+
+.p75 {
+    width: 75%;
+}
+
+.containerAbout {
+    width: 100%;
+    background-color: rgb(97, 97, 97);
+    height: 6rem;
+    margin-top: 4rem;
+    display: flex;
+}
+
+.borderAbout {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+/* Portfolio */
+#Portfolio {
+    margin-bottom: 5rem;
+}
+
+.imgPortfolio {
+    background-image: url("assets/img/parallax2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 21rem;
+    padding: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.titleWhite {
+    display: flex;
+    align-items: center;
+}
+
+.titlePortfolio {
+    color: white;
+    letter-spacing: .8rem;
+}
+
+.colorWork {
+    color: rgb(120, 119, 127);
+}
+
+.blocWork {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgWork {
+    width: 23%;
+    padding: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+.LoadMore {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Bload {
+    border: none;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+/* CONTACT */
+
+.imgContact {
+    background-image: url("assets/img/parallax3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 21rem;
+    display: flex;
+    justify-content: center;
+}
+
+.blocMap {
+    width: 100%;
+    height: 185px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgBloc {
+    width: calc(100%/3);
+}
+
+.h100 {
+    height: 100%;
+}
+
+.blocAdress {
+    width: 65%;
+    position: relative;
+
+}
+
+.Mright {
+    margin-right: 10px;
+}
+
+.coffee {
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+
+.register {
+    width: 100%;
+
+    display: flex;
+    margin-bottom: 10rem;
+}
+
+.formu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+    position: relative;
+}
+
+.w50 {
+    width: 48%;
+    height: 2rem;
+
+}
+
+.w100 {
+    width: 100%;
+    height: 2rem;
+    margin-top: 10px;
+}
+
+.vide {
+    width: calc(100%/3);
+}
+
+.subblack {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: none;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+}
+
+
+
+
+
+/* FOOTER */
+
+.fondfooter {
+    width: 100%;
+    height: 20rem;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bouton {
+    background-color: white;
+    border: none;
+
+}
+
+.gray {
+    color: gray;
+}
+
+.footerBlock {
+    margin-bottom: 20px;
+}
+
+.logo {
+    margin-top: 20px;
+}
